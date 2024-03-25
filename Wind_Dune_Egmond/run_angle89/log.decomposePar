@@ -1,0 +1,129 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : decomposePar -copyZero
+Date   : May 06 2023
+Time   : 14:26:54
+Host   : "UU112388"
+PID    : 14603
+I/O    : uncollated
+Case   : /home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decomposer scotch
+
+Finished decomposition in 0.162977 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 8810
+    Number of faces shared with processor 1 = 310
+    Number of faces shared with processor 2 = 467
+    Number of faces shared with processor 3 = 87
+    Number of faces shared with processor 4 = 76
+    Number of faces shared with processor 5 = 74
+    Number of processor patches = 5
+    Number of processor faces = 1014
+    Number of boundary faces = 2226
+
+Processor 1
+    Number of cells = 8792
+    Number of faces shared with processor 0 = 310
+    Number of faces shared with processor 2 = 487
+    Number of faces shared with processor 3 = 100
+    Number of faces shared with processor 4 = 183
+    Number of processor patches = 4
+    Number of processor faces = 1080
+    Number of boundary faces = 2855
+
+Processor 2
+    Number of cells = 8808
+    Number of faces shared with processor 0 = 467
+    Number of faces shared with processor 1 = 487
+    Number of faces shared with processor 3 = 447
+    Number of faces shared with processor 4 = 40
+    Number of processor patches = 4
+    Number of processor faces = 1441
+    Number of boundary faces = 1594
+
+Processor 3
+    Number of cells = 8649
+    Number of faces shared with processor 0 = 87
+    Number of faces shared with processor 1 = 100
+    Number of faces shared with processor 2 = 447
+    Number of faces shared with processor 4 = 352
+    Number of faces shared with processor 5 = 373
+    Number of processor patches = 5
+    Number of processor faces = 1359
+    Number of boundary faces = 1263
+
+Processor 4
+    Number of cells = 8643
+    Number of faces shared with processor 0 = 76
+    Number of faces shared with processor 1 = 183
+    Number of faces shared with processor 2 = 40
+    Number of faces shared with processor 3 = 352
+    Number of faces shared with processor 5 = 338
+    Number of faces shared with processor 5 = 177
+    Number of processor patches = 6
+    Number of processor faces = 1166
+    Number of boundary faces = 1992
+
+Processor 5
+    Number of cells = 8636
+    Number of faces shared with processor 0 = 74
+    Number of faces shared with processor 3 = 373
+    Number of faces shared with processor 4 = 338
+    Number of faces shared with processor 4 = 177
+    Number of processor patches = 4
+    Number of processor faces = 962
+    Number of boundary faces = 1788
+
+Number of processor faces = 3511
+Max number of cells = 8810 (0.997363% above average 8723)
+Max number of processor patches = 6 (28.5714% above average 4.66667)
+Max number of faces between processors = 1441 (23.1273% above average 1170.33)
+
+Time = 0s
+Processor 0: copying "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/0"
+ to "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/processor0/0"
+Processor 1: copying "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/0"
+ to "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/processor1/0"
+Processor 2: copying "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/0"
+ to "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/processor2/0"
+Processor 3: copying "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/0"
+ to "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/processor3/0"
+Processor 4: copying "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/0"
+ to "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/processor4/0"
+Processor 5: copying "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/0"
+ to "/home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023/run_angle89/processor5/0"
+
+End
+

@@ -1,0 +1,36 @@
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0 using 6 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0 using 6 processes
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle10
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle20
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle30
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle40
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle45
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle50
+Running decomposePar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle60
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle10 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle20 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle30 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle40 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle45 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle50 using 12 processes
+Running potentialFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle60 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle10 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle30 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle20 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle40 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle45 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle50 using 12 processes
+Running simpleFoam in parallel on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle60 using 12 processes
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle50
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle30
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle40
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle60
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle45
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle20
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle0
+Running reconstructPar on /scratch/Saeb_OpenFoam/Wind_Dune_cyc_snappy_6April2023/run_angle10

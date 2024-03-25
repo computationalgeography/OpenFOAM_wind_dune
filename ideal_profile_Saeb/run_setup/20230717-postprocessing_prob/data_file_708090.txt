@@ -1,0 +1,23 @@
+x_0 -10  //The intial location for geometry to avoid from the erro of "FOAM FATAL ERROR: bad set size ..." 
+y_0 -10  //The intial location for geometry to avoid from the erro of "FOAM FATAL ERROR: bad set size ..." 
+
+
+z_0  0
+z_end 300
+
+
+H2 3
+H3 25
+H4 5
+
+l1 50   //20
+l4 20
+l6 50
+
+// slope
+s1 0.02
+s2 1
+s3 1/3
+
+initial_mesh_number_each_direction 20
+

@@ -1,0 +1,72 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : surfaceFeatures
+Date   : Apr 14 2023
+Time   : 17:46:33
+Host   : "UU112388"
+PID    : 17224
+I/O    : uncollated
+Case   : /home/saeb/OpenFoam/Wind_Dune_profile_cyc_snappyHexMesh_3_14April2023
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "surfaceFeaturesDict"
+
+Surface            : "ground.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 174000
+Vertices     : 87591
+Bounding Box : (-50 -9.7 0) (240 12.05 300)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+Removing all non-manifold edges (edges with > 2 connected faces) unless they cross multiple regions
+
+Initial feature set:
+    feature points : 6
+    feature edges  : 1480
+    of which
+        region edges   : 1180
+        external edges : 0
+        internal edges : 300
+
+
+Final feature set:
+points      : 1479
+edges       : 1480
+boundingBox : (-50 -9.7 0) (240 12.05 300)
+point classification :
+    convex feature points          :        0
+    concave feature points         :        0
+    mixed feature points           :        6
+    other (non-feature) points     :     1473
+edge classification :
+    external (convex angle) edges  :        0
+    internal (concave angle) edges :      300
+    flat region edges              :        0
+    open edges                     :     1180
+    multiply connected edges       :        0
+
+Writing extendedFeatureEdgeMesh to "constant/extendedFeatureEdgeMesh/ground.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "constant/geometry/ground.eMesh"
+
+ExecutionTime = 0.315925 s  ClockTime = 1 s
+
+End
+
